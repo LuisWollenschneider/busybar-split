@@ -1,0 +1,53 @@
+{
+  "format_version": 1,
+  "version": 1,
+  "fields": {
+    "people": {
+      "type": "string",
+      "label": "People",
+      "description": "Everyone who shares the tab, separated by commas: 2 to 30 names. Short names fit best; past 6 the board takes more pages. A name taken out keeps its balance until it is settled.",
+      "default": "ANNA, BEN, CLARA",
+      "max_length": 250
+    },
+    "currency": {
+      "type": "enum",
+      "label": "Currency",
+      "default": "eur",
+      "options": [
+        {
+          "value": "eur",
+          "label": "Euro, sign first"
+        },
+        {
+          "value": "eur_after",
+          "label": "Euro, sign last, decimal comma"
+        },
+        {
+          "value": "usd",
+          "label": "Dollar"
+        },
+        {
+          "value": "gbp",
+          "label": "Pound"
+        },
+        {
+          "value": "chf",
+          "label": "Swiss franc (CHF)"
+        },
+        {
+          "value": "kr",
+          "label": "Krona / krone (KR)"
+        },
+        {
+          "value": "none",
+          "label": "No symbol"
+        }
+      ]
+    },
+    "invert_wheel": {
+      "type": "boolean",
+      "label": "Invert the wheel",
+      "default": false
+    }
+  }
+}

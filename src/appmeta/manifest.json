@@ -1,0 +1,9 @@
+{
+  "format_version": 1,
+  "id": "dev.luiswo.split",
+  "name": "Split",
+  "version": "0.1.0",
+  "api_version": "27.14.0",
+  "description": "Who owes whom in your flat, at a glance. Log 'I paid 12.40' with the wheel.",
+  "author": "LuisWollenschneider"
+}
